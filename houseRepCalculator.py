@@ -2,8 +2,8 @@
 
 '''
 Created on Apr 10, 2014
-This is a little pgroam that takes a list of states by population and calculates the number of Congresmen for that state in the house of Representatives
-@author: Matt - ASUS
+This is a little program that takes a list of states by population and calculates the number of Congresmen for that state in the house of Representatives. I need for some historical research I was doing.
+@author: Akira Murphy
 '''
 
 
@@ -27,6 +27,7 @@ def processLine(line):
     line = placeholderLine
     return line 
 
+#Makes the little dictionary to store states and reps.
 def dictCreator(file):
     f = open(file, 'r')
     stateToPop = {}
